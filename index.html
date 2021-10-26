@@ -1,9 +1,52 @@
 <!DOCTYPE html>
 <head>
     <title>Rock Paper Scissors!</title>
-    <script src = "script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class = "title">
+        <h1>Rock Paper Scissors...</h1>
+    </div>
+    <div class = "subtitle">
+        <h2>Choose Your Weapon!</h2>
+    </div>
 
+    <div class = buttonContainer>
+        <div class = "btns">
+            <button class="button btn1">Rock</button>
+            <button class="button btn2">Paper</button>
+            <button class="button btn3">Scissors</button>
+     </div>
+    </div>
+
+    <div class = "gameResultsContainer">
+        <div class = "gameResults">
+            <div class = "playerBox">
+                <h2 id = "playerSelection"></h2>
+            </div>
+
+            <div class = "vs">
+                <h1>VS.</h1>
+            </div>
+            
+            <div class = "computerBox">
+                <h2 id = "computerSelection"></h2>
+            </div>
+        </div>
+    </div>
+    <div class = "roundResultContainer">
+        <div class = "roundResult">
+            <h3 id="result"></h3>
+        </div>
+        
+    </div>
+
+        <div class = scoringSection>
+            <div class = "finalScore">
+                <h2 id = "scoreBoard"></h2>
+            </div>
+        </div>
+
+    <script src = "script.js"></script>
 </body>
 </html>
